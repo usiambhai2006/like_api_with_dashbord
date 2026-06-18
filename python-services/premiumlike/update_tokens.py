@@ -5,7 +5,7 @@ import os
 BASE_DIR = os.path.dirname(__file__)
 UIDPASS_FILE = os.path.join(BASE_DIR, "uidpass.json")
 TOKEN_FILE = os.path.join(BASE_DIR, "tokens.json")
-API_URL = "https://xtytdtyj-jwt.up.railway.app/token"
+API_URL = "https://mafu-token-iota.vercel.app/token"
 
 def read_uidpass():
     with open(UIDPASS_FILE, "r", encoding="utf-8") as f:
