@@ -19,7 +19,7 @@ TOKENS_FILE = os.path.join(BASE_DIR, 'tokens.json')
 UIDPASS_FILE = os.path.join(BASE_DIR, 'uidpass.json')
 STATS_FILE  = os.path.join(BASE_DIR, 'stats.json')
 
-JWT_API   = 'https://xtytdtyj-jwt.up.railway.app/token'
+JWT_API   = 'https://token.killersharmabot.online/token'
 AES_KEY   = b'Yg&tc%DEuh6%Zc^8'
 AES_IV    = b'6oyZDr22E3ychjM%'
 
